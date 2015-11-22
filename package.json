@@ -1,0 +1,15 @@
+{
+  "name": "dem",
+  "version": "1.0.0",
+  "description": "Joc amb Makey Makey",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dídac Sabatés",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.1.0"
+  }
+}
