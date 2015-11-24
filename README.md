@@ -1,19 +1,19 @@
-##CollaboThon - Joc de colaboració en equips amb Makey Makey
+## CollaboThon - Joc de colaboració en equips amb Makey Makey
 
 [TOC]
 
-###Explicació
+### Explicació
 
 
-###Normes
+### Normes
 - 2 equips de fins a 4 persones
 - La partida dura 60 segons
 - Aconsegueix punts completant el circuit des del pal del centre fins al pal que et mostra la pantalla del joc.
 - L'equip que aconsegueixi més punts guanya la partida.
 
 
-###Idea de original
-La idea original d'aquest joc és de **++The Tech Museum of Innovation++**, us deixo aquí d'on he tret toda la informació:
-[MaKey CollaboThon (Vídeo)](https://www.youtube.com/watch?v=5XjZ2MFmYjk "Video")
-[Repositori del joc original en Java](https://github.com/kguglielmino/TheTech)
-[Explicacio del joc original (pags.36-40)](http://www.thetech.org/MakerspaceTheTechBetaSamplerCookbook.pdf)
+### Idea de original
+La idea original d'aquest joc és de **++ The Tech Museum of Innovation ++**, us deixo aquí d'on he tret toda la informació:
+- [MaKey CollaboThon (Vídeo)](https://www.youtube.com/watch?v=5XjZ2MFmYjk "Video")
+- [Repositori del joc original en Java](https://github.com/kguglielmino/TheTech)
+- [Explicacio del joc original (pags.36-40)](http://www.thetech.org/MakerspaceTheTechBetaSamplerCookbook.pdf)
