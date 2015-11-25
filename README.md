@@ -10,6 +10,16 @@
 - Aconsegueix punts completant el circuit des del pal del centre fins al pal que et mostra la pantalla del joc.
 - L'equip que aconsegueixi més punts guanya la partida.
 
+## Tecnologies
+- Raspberry Pi
+- Makey Makey
+- HTML, CSS(SASS), JS(jQuery), Gulp.
+
+## Materials
+(TODO)
+
+## Com montar-ho?
+(TODO)
 
 ## Idea de original
 La idea original d'aquest joc és de **The Tech Museum of Innovation**, us deixo aquí d'on he tret toda la informació:
