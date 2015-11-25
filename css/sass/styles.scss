@@ -1,10 +1,13 @@
+$colorRodona: #29a1ee;
+$colorEquips: #00FF00;
+
 .header {
     height: 20%;
     font-size: 50px;
     text-align: center;
 }
 .player {
-    background-color: #00FF00;
+    background-color: $colorEquips;
     padding: 30px;
     border-top: 5px solid #000;
     border-bottom: 5px solid #000;
@@ -46,10 +49,8 @@
 .pal {
     margin-bottom: 50px;
     position: relative;
-    // border: 1px solid #000;
 }
 .pal-nom {
-    // border: 1px solid #000;
     font-size: 60px;
     text-align: center;
     width: 100%;
@@ -59,7 +60,6 @@
     width: 150px;
     height: 150px;
     border-radius: 100px;
-    // background-color: #29a1ee;
     background-color: #fff;
-    border: 5px solid #29a1ee;
+    border: 5px solid $colorRodona;
 }
