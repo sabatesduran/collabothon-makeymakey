@@ -5,7 +5,7 @@ $( document ).ready(function() {
 
     // VARIABLES
     // Temps de duració de la partida
-    var time = 40;
+    var time = 10;
     var interval;
     var punts1 = 0;
     var punts2 = 0;
@@ -135,15 +135,20 @@ $( document ).ready(function() {
         var punts1 = parseInt($('#punts-1').html());
         var punts2 = parseInt($('#punts-2').html());
 
-        if(punts1 > punts2) {
-            winner = missatge + "1";
-        } else if(punts1 === punts2) {
-            winner = "Heu quedat empat, haureu de tornar a jugar no? =P";
-        } else {
-            winner = missatge + "2";
-        }
+        // Canvi marcador resultat
+        $('#resultat1').html(punts1);
+        $('#resultat2').html(punts2);
 
-        return winner;
+        if(punts1 > punts2) {
+            missatge += "1";
+        } else if(punts1 === punts2) {
+            missatge = "Heu quedat empat, haureu de tornar a jugar no? =P";
+        } else {
+            missatge += "2";
+        }
+        $('#resultat-footer').html(missatge);
+
+        $('#resultat').modal('show');
     }
 
     function randomCircle(jugador) {
@@ -177,14 +182,14 @@ $( document ).ready(function() {
             counter--;
             $('#clock').html(counter);
             if (counter == 0) {
-                var winner = checkWinner();
-                alert(winner);
+                checkWinner();
                 clearInterval(interval);
             }
         }, 1000);
     }
 
     function resetGame(){
+        $('#resultat').modal('hide');
         clearInterval(interval);
         punts1 = 0;
         punts2 = 0;

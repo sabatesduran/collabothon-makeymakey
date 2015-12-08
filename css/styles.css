@@ -58,3 +58,28 @@
   border-radius: 100px;
   background-color: #fff;
   border: 5px solid #29a1ee; }
+
+/* Modal */
+#resultat {
+  text-align: center; }
+  #resultat .modal-title {
+    text-align: center;
+    font-size: 70px; }
+  #resultat .modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    width: 65%; }
+  #resultat .modal-body {
+    font-size: 200px;
+    text-align: center; }
+  #resultat .modal-footer {
+    text-align: center;
+    font-size: 70px; }
+
+@media screen and (min-width: 768px) {
+  #resultat:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%; } }

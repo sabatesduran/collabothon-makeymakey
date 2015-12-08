@@ -22,7 +22,7 @@
 (TODO)
 
 ## Idea de original
-La idea original d'aquest joc és de **The Tech Museum of Innovation**, us deixo aquí d'on he tret toda la informació:
+La idea original d'aquest joc és de **The Tech Museum of Innovation**, us deixo aquí d'on he tret tota la informació:
 - [MaKey CollaboThon (Vídeo)](https://www.youtube.com/watch?v=5XjZ2MFmYjk "Video")
 - [Repositori del joc original en Java](https://github.com/kguglielmino/TheTech)
 - [Explicacio del joc original (pags.36-40)](http://www.thetech.org/MakerspaceTheTechBetaSamplerCookbook.pdf)

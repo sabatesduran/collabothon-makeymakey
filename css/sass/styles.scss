@@ -63,3 +63,38 @@ $colorEquips: #00FF00;
     background-color: #fff;
     border: 5px solid $colorRodona;
 }
+
+/* Modal */
+#resultat {
+    text-align: center;
+
+    .modal-title {
+        text-align: center;
+        font-size: 70px;
+    }
+
+    .modal-dialog {
+        display: inline-block;
+        text-align: left;
+        vertical-align: middle;
+        width: 65%;
+    }
+
+    .modal-body {
+        font-size: 200px;
+        text-align: center;
+    }
+
+    .modal-footer {
+        text-align: center;
+        font-size: 70px;
+    }
+}
+@media screen and (min-width: 768px) {
+  #resultat:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
